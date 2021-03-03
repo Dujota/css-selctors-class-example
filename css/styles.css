@@ -1,0 +1,68 @@
+body {
+  font-family: "Lucida Grande";
+  margin: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+div {
+  color: blue;
+}
+
+#comments-title {
+  font-size: 28px;
+}
+
+#comments-title::first-letter {
+  font-size: 60px;
+}
+
+.works {
+  font-size: 10px;
+}
+
+
+/* Basic class selector */
+li.super-cool {
+  border: 2px solid red;
+}
+
+
+input[type="text"] {
+  width: 200px;
+}
+
+
+.crazy.super-cool p {
+  color: teal;
+}
+
+
+li:hover {
+  cursor: pointer;
+}
+
+
+
+
+/* Examples */
+.btn {
+  /* rounded corners */
+  /* 10 px tall */
+  /* 30 px wide */
+}
+
+.btn:hover {
+  border: 3px solid blue;
+}
+
+.danger-btn {
+  background-color: red;
+}
+
+.success-btn {
+  background-color: green;
+}
